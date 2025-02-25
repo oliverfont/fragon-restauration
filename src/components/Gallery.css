@@ -2,6 +2,7 @@
     padding: 40px 20px;
     text-align: center;
     background-image: url('../assets/bg/bg.jpg');
+    margin: 30px 0;
   }
   
   .carousel {
@@ -49,12 +50,14 @@
     transform: translateX(-100%) scale(0.8);
     opacity: 0.7;
     z-index: 1;
+    margin-right: 13%;
   }
   
   .carousel-image.next-image {
     transform: translateX(100%) scale(0.8);
     opacity: 0.7;
     z-index: 1;
+    margin-left: 13%;
   }
   
   .carousel-button {
