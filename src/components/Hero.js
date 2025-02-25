@@ -1,8 +1,23 @@
+import React from "react";
+import "./Hero.css";
+import logo2 from "../assets/logo/logo2.jpg";
+import { FaFacebook, FaInstagram } from "react-icons/fa"; // Import des icônes
+
 export function Hero() {
-    return (
-      <div className="hero" style={{ backgroundImage: 'url(/path/to/hero-image.jpg)', backgroundSize: 'cover', height: '100vh', color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        <h1 style={{ fontSize: '4rem', textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>Fragon Restauration</h1>
+  return (
+    <div className="hero">
+      <div className="logos">
+        <img className="logo2" src={logo2} alt="Logo" />
       </div>
-    );
-  }
-  
+      <div className="social-icons">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <FaFacebook className="icon" />
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <FaInstagram className="icon" />
+        </a>
+      </div>
+      <div className="separator"></div>
+    </div>
+  );
+}
