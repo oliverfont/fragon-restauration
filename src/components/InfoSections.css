@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap');
+
+.info-section {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif; /* Police par défaut pour le texte */
+  }
+  
+  .info-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Deux colonnes */
+    gap: 20%; /* Espace entre les colonnes */
+  }
+  
+  .info-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espace entre les éléments */
+    align-items: center;
+    text-align: justify;
+  }
+  
+  .info-title {
+    font-family: 'Playfair Display', serif; /* Police pour les titres */
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 700; /* Titres en gras */
+  }
+  
+  .info-subtitle {
+    font-family: 'Playfair Display', serif; /* Police pour les sous-titres */
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 20px;
+    font-weight: 600; /* Sous-titres en semi-gras */
+  }
+  
+  .info-text {
+    font-family: 'Open Sans', sans-serif; /* Police pour le texte */
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+
+  .en {
+    font-size: 0.9rem;
+  }
+  
+  .info-image {
+    width: 470px;
+    height: 268px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 10px;
+  }
+  
+  .info-caption {
+    font-family: 'Open Sans', sans-serif; /* Police pour les légendes */
+    font-size: 0.8rem;
+    color: #777;
+    text-align: left;
+    margin-top: -15px;
+    align-self: baseline;
+  }
