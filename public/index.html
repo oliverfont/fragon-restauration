@@ -1,43 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laura Segui - Maçonnerie Traditionnelle & Restauration | Périgord Limousin</title>
+    <meta name="description" content="Artisane maçon spécialisée en enduits à la chaux, pierre sèche et rénovation écologique. Restauration de patrimoine avec des matériaux nobles (terre, plâtre) dans le Périgord Limousin.">
+    <meta name="keywords" content="maçonnerie, restauration, chaux, pierre sèche, enduit, Périgord Limousin, rénovation écologique, terre crue, plâtre, bâtiment ancien, Laura Segui">
+    <meta name="author" content="Laura Segui">
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- Balises Open Graph pour les réseaux sociaux -->
+    <meta property="og:title" content="Laura Segui - Maçonnerie Traditionnelle & Restauration">
+    <meta property="og:description" content="Artisane maçon spécialisée en restauration de patrimoine avec des matériaux nobles dans le Périgord Limousin">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fragonrestauration.fr">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico">
+
+    <!-- Données structurées Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Laura Segui - Maçonnerie & Restauration",
+        "image": "https://fragonrestauration.fr/assets/logo.jpg",
+        "description": "Artisane maçon spécialisée en techniques traditionnelles de restauration du patrimoine bâti",
+        "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Périgord Limousin",
+            "addressCountry": "FR"
+        },
+        "areaServed": ["Nouvelle-Aquitaine", "Occitanie"],
+        "keywords": "maçonnerie traditionnelle, enduit à la chaux, pierre sèche, restauration écologique",
+        "knowsAbout": [
+            "Maçonnerie traditionnelle",
+            "Enduits à la chaux",
+            "Restauration de patrimoine",
+            "Techniques de pierre sèche",
+            "Matériaux écologiques (terre, plâtre)"
+        ]
+    }
+    </script>
+</head>
+<body>
+    <noscript>
+        <h1>Laura Segui - Artisane Maçon</h1>
+        <p>Diplômée d'une école d'arts appliqués à Montpellier et qualifiée ouvrière en maçonnerie depuis 2017.</p>
+        
+        <h2>Spécialisations :</h2>
+        <ul>
+            <li>Enduits à la chaux et terre crue</li>
+            <li>Restauration de patrimoine bâti</li>
+            <li>Techniques de pierre sèche (restanques)</li>
+            <li>Matériaux écologiques et respirants</li>
+        </ul>
+
+        <h2>Approche :</h2>
+        <p>"Rénover, c'est décrypter l'histoire du bâti pour créer des maisons saines où les murs respirent."</p>
+        
+        <h3>Engagement :</h3>
+        <p>Promouvoir la place des femmes dans le BTP (1,5% de femmes ouvrières actuellement).</p>
+        
+        <p>Contact : [Vos coordonnées]</p>
+    </noscript>
+
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+    <!-- Scripts chargés en async -->
+    <script src="/js/main.js" async></script>
+</body>
 </html>
