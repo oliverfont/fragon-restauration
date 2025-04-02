@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fragon-restauration/static/css/main.18fe3f82.css",
+    "main.css": "/fragon-restauration/static/css/main.4b29d755.css",
     "main.js": "/fragon-restauration/static/js/main.50ff752e.js",
     "static/js/453.585dbedd.chunk.js": "/fragon-restauration/static/js/453.585dbedd.chunk.js",
     "static/media/375478118_842074017192247__n.jpg": "/fragon-restauration/static/media/375478118_842074017192247_2641068999419564747_n.24efa4bd242ef88b2ad9.jpg",
@@ -36,12 +36,12 @@
     "static/media/462576180_456081003663952__n.jpg": "/fragon-restauration/static/media/462576180_456081003663952_5968733522883817234_n.0a1f92f06bc6f032e6ff.jpg",
     "static/media/462585980___n.jpg": "/fragon-restauration/static/media/462585980_1905738153240042_5546845075415171579_n.a084e4aeb80cd80c0f32.jpg",
     "index.html": "/fragon-restauration/index.html",
-    "main.18fe3f82.css.map": "/fragon-restauration/static/css/main.18fe3f82.css.map",
+    "main.4b29d755.css.map": "/fragon-restauration/static/css/main.4b29d755.css.map",
     "main.50ff752e.js.map": "/fragon-restauration/static/js/main.50ff752e.js.map",
     "453.585dbedd.chunk.js.map": "/fragon-restauration/static/js/453.585dbedd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18fe3f82.css",
+    "static/css/main.4b29d755.css",
     "static/js/main.50ff752e.js"
   ]
 }
