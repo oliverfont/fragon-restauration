@@ -3,6 +3,7 @@
     text-align: center;
     background-image: url('../assets/bg/bg.jpg');
     margin: 30px 0;
+    overflow: hidden;
   }
   
   .carousel {

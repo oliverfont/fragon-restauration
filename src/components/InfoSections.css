@@ -1,68 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap');
 
 .info-section {
-    padding: 40px 20px;
-    background-color: #fff;
-    text-align: left;
-    font-family: 'Open Sans', sans-serif; /* Police par défaut pour le texte */
-  }
-  
+  padding: 40px 0px;
+  background-color: #fff;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  /* Ajout pour éviter tout débordement horizontal */
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.info-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* Remplacement du pourcentage par une valeur fixe */
+  gap: 40px; /* Au lieu de 20% */
+  /* Sécurité supplémentaire */
+  box-sizing: border-box;
+}
+
+.info-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: justify;
+  /* Empêche tout débordement */
+  width: 100%;
+}
+
+.info-image {
+  /* Responsive au lieu de largeur fixe */
+  max-width: 100%;
+  height: auto; /* Hauteur automatique pour conserver le ratio */
+  /* Conserver vos autres styles */
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 10px;
+}
+
+/* Version mobile */
+@media (max-width: 768px) {
   .info-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Deux colonnes */
-    gap: 20%; /* Espace entre les colonnes */
-  }
-  
-  .info-column {
-    display: flex;
-    flex-direction: column;
-    gap: 20px; /* Espace entre les éléments */
-    align-items: center;
-    text-align: justify;
-  }
-  
-  .info-title {
-    font-family: 'Playfair Display', serif; /* Police pour les titres */
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 10px;
-    font-weight: 700; /* Titres en gras */
-  }
-  
-  .info-subtitle {
-    font-family: 'Playfair Display', serif; /* Police pour les sous-titres */
-    font-size: 2rem;
-    color: #555;
-    margin-bottom: 20px;
-    font-weight: 600; /* Sous-titres en semi-gras */
-  }
-  
-  .info-text {
-    font-family: 'Open Sans', sans-serif; /* Police pour le texte */
-    font-size: 1.1rem;
-    color: #555;
-    line-height: 1.6;
+    grid-template-columns: 1fr;
+    /* Réduction du gap en mobile */
+    gap: 30px;
+    /* Padding supplémentaire pour éviter les bords collés */
+    padding: 0 15px;
   }
 
-  .en {
-    font-size: 0.9rem;
+  .info-section {
+    padding: 40px 0;
   }
-  
-  .info-image {
-    width: 470px;
-    height: 268px;
-    object-fit: cover;
-    object-position: 50% 50%;
-    border-radius: 10px;
-  }
-  
-  .info-caption {
-    font-family: 'Open Sans', sans-serif; /* Police pour les légendes */
-    font-size: 0.8rem;
-    color: #777;
+
+  .info-column {
+    /* Alignement texte à gauche en mobile */
     text-align: left;
-    margin-top: -15px;
-    align-self: baseline;
+    align-items: flex-start;
   }
+
+  .info-title {
+    /* Taille de police réduite en mobile */
+    font-size: 2rem;
+  }
+
+  .info-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .info-text {
+    font-size: 1rem;
+  }
+}
