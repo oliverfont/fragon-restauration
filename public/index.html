@@ -1,58 +1,38 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr">  <!-- Changé 'en' vers 'fr' -->
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
     
-    <!-- SEO Essentials -->
+    <!-- Début des modifications SEO -->
     <title>Fragon Restauration - Maçonnerie Traditionnelle & Restauration du Patrimoine</title>
-    <meta name="description" content="Laura Segui, artisane maçon spécialisée dans les enduits à la chaux, la pierre sèche et la restauration écologique de bâti ancien en Périgord Limousin.">
-    <meta name="keywords" content="maçonnerie, restauration, chaux, pierre sèche, Périgord Limousin, Laura Segui, enduit traditionnel">
+    <meta name="description" content="Laura Segui, artisane maçon spécialisée en enduits à la chaux, pierre sèche et restauration écologique de bâti ancien en Périgord Limousin." />
+    <meta name="keywords" content="maçonnerie, restauration, chaux, pierre sèche, enduit traditionnel, Périgord Limousin, Laura Segui" />
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Fragon Restauration - Maçonnerie d'Art">
-    <meta property="og:description" content="Artisane maçon spécialisée en techniques traditionnelles de restauration du patrimoine">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://fragonrestauration.fr">
-    <meta property="og:image" content="https://fragonrestauration.fr/preview.jpg">
+    <meta property="og:title" content="Fragon Restauration - Maçonnerie d'Art" />
+    <meta property="og:description" content="Artisane maçon spécialisée en techniques traditionnelles de restauration du patrimoine bâti" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fragonrestauration.fr" />
+    <meta property="og:image" content="%PUBLIC_URL%/social-preview.jpg" />
     
-    <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico">
-    
-    <!-- Preload critical resources -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- Fin des modifications SEO -->
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 </head>
 <body>
     <noscript>
+        Vous devez activer JavaScript pour utiliser cette application.
+        <!-- Version alternative simple pour les crawlers -->
         <h1>Fragon Restauration</h1>
-        <h2>Laura Segui - Artisane Maçon</h2>
-        <p>Spécialiste en restauration de patrimoine et techniques traditionnelles :</p>
-        <ul>
-            <li>Enduits à la chaux & terre crue</li>
-            <li>Pierre sèche (restanques)</li>
-            <li>Rénovation écologique</li>
-        </ul>
-        <p>Interventions en Périgord Limousin et Nouvelle-Aquitaine</p>
-        <p>Contact : [email/téléphone]</p>
+        <p>Laura Segui - Artisane maçon spécialisée en restauration de patrimoine</p>
     </noscript>
-
     <div id="root"></div>
-    
-    <!-- Schema.org (injecté par React si dynamique) -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": "Fragon Restauration",
-        "url": "https://fragonrestauration.fr",
-        "logo": "https://fragonrestauration.fr/logo.jpg",
-        "description": "Atelier de maçonnerie traditionnelle et restauration de patrimoine bâti",
-        "founder": {
-            "@type": "Person",
-            "name": "Laura Segui"
-        }
-    }
-    </script>
+
 </body>
 </html>
