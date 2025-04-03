@@ -33,9 +33,8 @@
 
 .info-image {
   /* Responsive au lieu de largeur fixe */
-  max-width: 100%;
-  height: auto; /* Hauteur automatique pour conserver le ratio */
-  /* Conserver vos autres styles */
+  height: 400px;
+  width: 100%;
   object-fit: cover;
   object-position: 50% 50%;
   border-radius: 10px;
